@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMP001A.LectureActivity5-Three Ways to Apply CSS</title>
+    <!-- Method 1: External CSS Part 1 -->
+    <link rel="stylesheet" href="main.css">
+
+    <!-- Method 2: Internal CSS Part 1 -->
+    <style>
+        .internal-css {
+            color: #038c7f;
+            background-color: #04bfad;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- Unordered list with 5 items -->
+             <ul>
+                 <li><a href="index.html" target="_self">Home</a></li>
+                 <li><a href="css-application.html" target="_self">Three Ways to Apply CSS</a></li>
+                 <li><a href="built-in-elements.html" target="_self">Styling Built-in Elements</a></li>
+                 <li><a href="classes-ids.html" target="_self">Applying CSS to Classes [&] ID's</a></li>
+                 <li><a href="conditional-css.html" target="_self">Conditional CSS</a></li>               
+             </ul> 
+        </nav>
+        <h1>Three Ways to Apply CSS</h1>
+    </header>
+    <main>
+        <section>
+            <!-- Method 1: External CSS Part 2 -->
+            <h2>External CSS</h2>
+            <p id="external-css">hello</p>
+        </section>
+        <section>
+            <!-- Method 1: Internal CSS Part 2 -->
+            <h2>Internal CSS</h2>
+            <p id="internal-css">hello</p>
+        </section>
+        <section>
+            <!-- Method 3: Inline CSS -->
+            <h2>Inline CSS</h2>
+            <p style="color: #04bfad;">hello</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Copyright 2024 Manuel Aguilar COMP001A.LectureActivity5/<a href="https://github.com/manuelaguilar5219" target="_self">https://github.com/manuelaguilar5219</a></p>
+    </footer>
+</body>
+</html>
