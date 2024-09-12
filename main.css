@@ -7,7 +7,7 @@
 /* Resetting some default styles using multiple selectors seperated by commas */
 body, h1, h2, p, ul, li {
     margin: 0; /* Removing the default margin */
-    padding: 0; /* Removing the default padding */
+    padding: 0px; /* Removing the default padding */
     font-family: Arial, Helvetica, sans-serif; /* Setting the default font */
 }
 /* HTML element selector */
